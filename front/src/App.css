@@ -1,0 +1,24 @@
+.task-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.todos {
+  background: #eeeeee;
+  min-height: 500px;
+  max-height: 500px;
+  width: 300px;
+  margin: 10px;
+  padding: 5px;
+  overflow-y: auto;
+}
+
+.done {
+  background: #eeeeee;
+  height: 100px;
+  width: 100px;
+  margin: 10px;
+}
+.task {
+  cursor: grab;
+}
